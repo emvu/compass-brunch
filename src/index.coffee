@@ -21,5 +21,5 @@ module.exports = class CompassCompiler
 
     configPath = sysPath.join process.cwd(), @config.paths.compass
 
-    child_process.exec "compass compile --config #{configPath}", (error, stdout, stderr) ->
+    child_process.exec "compass watch --config #{configPath}", (error, stdout, stderr) ->
       console.log "exec error: " + error  if error isnt null
