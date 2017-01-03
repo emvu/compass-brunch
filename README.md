@@ -1,4 +1,8 @@
 ## compass-brunch
+
+**compass-brunch is deprecated**, highly recommended to use [sass-brunch](https://github.com/brunch/sass-brunch) instead.
+sass-brunch supports Compass too.
+
 Adds Compass support to
 [brunch](http://brunch.io).
 
